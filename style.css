@@ -1,0 +1,47 @@
+/* Apply general styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-serif;
+}
+
+header {
+    background-color: #0B1C51;
+    padding: 20px;
+    color: #fff; /* Set text color to white */
+}
+
+/* Set the title font size for mobile and desktop */
+h1 {
+    font-size: 52px; /* For mobile */
+    margin: 0; /* Remove default margin */
+}
+
+/* Navigation styles */
+nav {
+    margin-top: 20px; /* Add space between title and navigation */
+}
+
+ul {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+li {
+    display: inline; /* Display navigation links horizontally */
+    margin-right: 20px; /* Add space between navigation links */
+}
+
+/* Set the font size of navigation links */
+a {
+    text-decoration: none; /* Remove default underline */
+    color: #fff; /* Set text color to white */
+}
+
+/* Media query for desktop */
+@media screen and (min-width: 768px) {
+    h1 {
+        font-size: 48px; /* For desktop */
+    }
+}
